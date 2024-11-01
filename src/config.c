@@ -102,7 +102,7 @@ configEnum oom_score_adj_enum[] = {{"no", OOM_SCORE_ADJ_NO},
 
 configEnum acl_pubsub_default_enum[] = {{"allchannels", SELECTOR_FLAG_ALLCHANNELS}, {"resetchannels", 0}, {NULL, 0}};
 
-configEnum sanitize_dump_payload_enum[] = {{"no", SANITIZE_DUMP_NO},
+configEnum sanitize_dump_payload_enum[] = {{"no", SANITIZE_DUMP_YES},
                                            {"yes", SANITIZE_DUMP_YES},
                                            {"clients", SANITIZE_DUMP_CLIENTS},
                                            {NULL, 0}};
